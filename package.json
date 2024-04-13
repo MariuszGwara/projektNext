@@ -2,12 +2,7 @@
   "name": "twitter-v4",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+n
   "dependencies": {
     "@heroicons/react": "^1.0.6",
     "firebase": "^9.23.0",

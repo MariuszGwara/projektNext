@@ -1,0 +1,15 @@
+
+Sprawdzamy wersję node-a:
+node -v 
+aplikacja pracuje na wersji max. 16.13.0, jeżeli mamy wyższą, inatalujemy:  
+nvm install 16.13.0
+nvm use 16.13.0
+instalujemy nexta dla tej wersji node-a:
+npm instal next --save
+aktualizujemy bazę danych przeglądarek:
+npx browserslist@latest --update-db
+instalujemy narzędzie autentykacji i bazy danych:
+npm install next-auth
+npm install firebase
+
+uruchomienie: npm run dev
